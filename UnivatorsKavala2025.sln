@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.36105.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnivatorsKavala2025", "UnivatorsKavala2025\UnivatorsKavala2025.csproj", "{D7FA5CB0-7CB3-41CC-93A3-020A848EE512}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "reactproject1", "reactproject1\reactproject1.esproj", "{CEC6E8C3-C1F6-C646-E98F-4C172527373D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7FA5CB0-7CB3-41CC-93A3-020A848EE512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7FA5CB0-7CB3-41CC-93A3-020A848EE512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7FA5CB0-7CB3-41CC-93A3-020A848EE512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7FA5CB0-7CB3-41CC-93A3-020A848EE512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEC6E8C3-C1F6-C646-E98F-4C172527373D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEC6E8C3-C1F6-C646-E98F-4C172527373D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEC6E8C3-C1F6-C646-E98F-4C172527373D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CEC6E8C3-C1F6-C646-E98F-4C172527373D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEC6E8C3-C1F6-C646-E98F-4C172527373D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEC6E8C3-C1F6-C646-E98F-4C172527373D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BF11F69-881D-4A74-8E54-015AF254B63C}
+	EndGlobalSection
+EndGlobal

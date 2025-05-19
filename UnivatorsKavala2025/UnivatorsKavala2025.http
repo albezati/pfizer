@@ -1,0 +1,22 @@
+@UnivatorsKavala2025_HostAddress = https://localhost:7184/WeatherForecast
+
+
+GET {{UnivatorsKavala2025_HostAddress}}/GetWeatherForecast/
+Accept: application/json
+
+###
+
+GET {{UnivatorsKavala2025_HostAddress}}/protected/
+X-Api-Key: YourSecureApiKeyHere
+Accept: application/json
+###
+
+POST {{UnivatorsKavala2025_HostAddress}}/CreateWeatherForecast/
+X-Api-Key: YourSecureApiKeyHere
+Accept: application/json
+Content-Type: application/json
+{
+  "date": "2025-10-01",
+  "temperatureC": 25,
+  "summary": "Sunny"
+}
