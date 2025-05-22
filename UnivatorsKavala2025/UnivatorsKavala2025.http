@@ -20,3 +20,8 @@ Content-Type: application/json
   "temperatureC": 25,
   "summary": "Sunny"
 }
+###
+
+DELETE {{UnivatorsKavala2025_HostAddress}}/DeleteWeatherForecast/1
+Accept: application/json
+X-Api-Key: YourSecureApiKeyHere

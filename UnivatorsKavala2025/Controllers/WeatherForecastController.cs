@@ -61,7 +61,8 @@ public class WeatherForecastController : ControllerBase
         return Ok(weatherForecast);
     }
     [HttpDelete("DeleteWeatherForecast/{id}")]
-    public IActionResult DeleteWeatherForecast(int id)
+    [ApiKeyAuth]
+    public IActionResult DeleteWeatherForecast([FromRoute]int id)
     {
         // Here you would typically delete the weather forecast from your database
         // For this example, we'll just return a success message
